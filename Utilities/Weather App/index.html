@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Weather Api</title>
+        <link rel="stylesheet" href="../../Assets/CSS/Main.css">
+        <link rel="stylesheet" href="./assets/style.css">
+        <script src="../../Assets/JavaScript/Sidenav.js"></script>
+    </head>
+
+    <body>
+        <div id="sidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <h2>Navigation</h2>
+            <a href="index.html">Home</a>
+            <a href="Downloads/Index.html">Downloads</a>
+            <h2>Games</h2>
+            <a href="../../Games/ConnectFour/index.html">Connect Four</a>
+            <a href="../../Games/Frogger/index.html">Frogger Master</a>
+            <a href="../../Games/Memory/index.html">Memory Game</a>
+            <a href="../../Games/Snake/index.html">Snake Master</a>
+            <a href="../../Games/SpaceInvaders/index.html">Space Invaders</a>
+            <a href="../../Games/Tetris/index.html">Tetris Master</a>
+            <a href="../../Games/Whack-A-Mole/index.html">Whack--Mole</a>
+            <h2>Utilities</h2>
+            <a href="index.html">Weather App</a>
+            <a href="../../Utilties/Meditation App/index.html">Meditation App</a>
+            <a href="../../Utilties/Music App App/index.html">Music App</a>
+            <a href="../../Utilties/JS App/index.html">JS App</a>
+        </div>
+        <div id="header">
+            <span class="menu" onclick="openNav()">
+                <h2>&#9776;Menu</h2>
+            </span>
+            <br />
+            <div>
+                <span class="logo icon fa-paper-plane"></span>
+                <h1>
+                    Weather App
+                </h1>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container1">
+
+                <div class="weather-box">
+                    <div class="row1">
+                        <h2 class="weather-location"></h2>
+                        <canvas class="weatherType" id="icon1" width="128" height="128"></canvas>
+                    </div>
+                    <div class="row2">
+                        <h1 class="temp"></h1>
+                        <span class="temp-type">°C</span>
+                    </div>
+                    <h2 class="weather-description"></h2>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <ul class="icons">
+                <li><a target="_blank" href="https://www.instagram.com/nikhilgajjar4"
+                        class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a target="_blank" href="https://github.com/nikgajjar51" class="icon brands fa-github"><span
+                            class="label">Github</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Nikhil Gajjar, 2021. All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+        </div>
+        <script src="./assets/js/skycons.js"></script>
+        <script src="./assets/js/jquery-3.2.1.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+
+</html>

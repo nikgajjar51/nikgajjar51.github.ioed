@@ -1,0 +1,33 @@
+
+.show {
+    display: all;
+}
+
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 650px;
+    width: 750px;
+    padding: 2.5px;
+    background-color: #7752ff;
+    margin: auto;
+}
+
+.grid div {
+    height: 100px;
+    width: 100px;
+    margin: 2.5px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+.player-one {
+    background-color: #f4ff5e;
+    border-radius: 50px;
+}
+
+.player-two {
+    background-color: #f29cff;
+    border-radius: 50px;
+}
